@@ -1,10 +1,5 @@
 import java.util.Scanner;
 public class Sample35 {
-    
-
-
-
-    // Recursive function to solve Tower of Hanoi
     public static void solveHanoi(int n, char source, char destination, char auxiliary) {
         // Base case: If only one disk, move it directly
         if (n == 1) {
